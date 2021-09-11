@@ -6,6 +6,7 @@ These are the settings I tweak on each repository I create. Repositories are alw
 
 Change these settings on the `options` page:
 
+- Disable `Wikis`
 - Disable `Allow Merge Commits`
 - Disable `Allow Rebase Merging`
 - Enable `Automatically delete head branches`
