@@ -1,6 +1,6 @@
 {
   "name": "code-snippets",
-  "version": "1.13.2",
+  "version": "1.14.0",
   "description": "Useful code snippets",
   "main": "index.js",
   "scripts": {
