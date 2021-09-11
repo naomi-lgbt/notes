@@ -14,6 +14,7 @@ Change these settings on the repository home view:
 Change these settings on the `options` page:
 
 - Disable `Wikis`
+- Disable `Projects`
 - Disable `Allow Merge Commits`
 - Disable `Allow Rebase Merging`
 - Enable `Automatically delete head branches`
