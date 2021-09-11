@@ -2,6 +2,12 @@
 
 These are some useful GitHub workflows I've saved.
 
+## Repository Setup
+
+Instructions for the GitHub repository settings to make the most of these configs.
+
+[View Settings](/github-workflows/repository-setup.md)
+
 ## Dependabot Config
 
 This is a Dependabot configuration file, which schedules the CRON job and sets the label to apply to Dependabot PRs.
