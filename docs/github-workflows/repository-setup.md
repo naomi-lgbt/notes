@@ -4,6 +4,13 @@ These are the settings I tweak on each repository I create. Repositories are alw
 
 ## Main Settings
 
+Change these settings on the repository home view:
+
+- Disable `releases`
+- Disable `packages`
+- Disable `environments` (UNLESS going to deploy on GH Pages)
+- Add `description`, `topics`, and `url`.
+
 Change these settings on the `options` page:
 
 - Disable `Wikis`
