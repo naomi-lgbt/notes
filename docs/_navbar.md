@@ -30,6 +30,7 @@ _Version 1.9.0_
   - [Semantic Versioning](/general/sem-ver.md)
   - [WSL Partition Cleanup](/general/compact-disk.md)
 - [GitHub Workflows](/github-workflows/index.md)
+  - [Repository Setup](/github-workflows/repository-setup.md)
   - [Dependabot Config](/github-workflows/dependabot-config.md)
   - [CodeQL Scanning (TypeScript/Node)](/github-workflows/codeql-ts-node.md)
   - [Node CI (TypeScript)](/github-workflows/node-ci-ts.md)
