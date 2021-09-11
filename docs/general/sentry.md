@@ -15,8 +15,8 @@ npm i @sentry/node @sentry/integrations
 Then, in the entry point file (usually `src/index.ts`), add the initialisation code.
 
 ```ts
-import * as Sentry from "@sentry/node";
 import { RewriteFrames } from "@sentry/integrations";
+import * as Sentry from "@sentry/node";
 
 Sentry.init({
   dsn: process.env.SENTRY_DSN,
@@ -37,6 +37,7 @@ Now set up a global error handler in `src/utils/errorHandler.ts`:
 
 ```ts
 import * as Sentry from "@sentry/node";
+
 import { logHandler } from "./logHandler";
 
 /**
