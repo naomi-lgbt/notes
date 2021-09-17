@@ -62,3 +62,11 @@ rsync --archive --chown=nhcarrigan:nhcarrigan ~/.ssh /home/nhcarrigan
 > SSH permissions are tricky. It is imperative that you do *not* edit the permissions of your /home/nhcarrigan directory OR the .ssh directory within.
 
 After completing these steps, close your SSH connection and attempt to SSH in as your new user instead of `root`. If you followed these instructions correctly, you'll now be logged in as your new user.
+
+## Set Timezone
+
+Make sure you set your server timezone appropriately. I usually set it to my local timezone.
+
+```bash
+sudo timedatectl set-timezone <your_timezone>
+```
