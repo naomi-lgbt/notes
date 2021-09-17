@@ -49,3 +49,9 @@ A brief writeup on my semantic versioning process for `package.json` projects.
 Steps for cleaning up the memory allocation for your WSL instance.
 
 [View notes](notes/compact-disk.md)
+
+## `.bashrc` Customisation
+
+My personal configuration for `.bashrc` files.
+
+[View config](notes/bashrc-file.md)
