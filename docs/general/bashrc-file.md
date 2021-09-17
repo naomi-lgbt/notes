@@ -73,7 +73,6 @@ source "$HOME/.cargo/env"
 My extensive customisation of the PS1 command line prompt. This will show your user and system name, which directory you are in, your project name and version, your git branch, and the system time.
 
 ```bash
-# get current status of git repo
 function parse_git_branch() {
     BRANCH=$(git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
     if [ ! "${BRANCH}" == "" ]; then
@@ -94,5 +93,5 @@ function parse_npm_version {
     fi
 }
 
-export PS1="\[\e[35m\]\u @ \h \[\e[m\]is in \[\e[36m\]\W\[\e[m\] editing \[\e[33m\]\`parse_npm_version\`\[\e[m\] on branch \[\e[32m\]\`parse_git_branch\`\[\e[m\] at \[\e[34m\]\t\[\e[m\]\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] "
+export PS1="\[\e[35m\]\u\[\e[m\] on \[\e[35m\]\h \[\e[m\]is in \[\e[36m\]\W\[\e[m\] editing \[\e[33m\]\`parse_npm_version\`\[\e[m\] on branch \[\e[32m\]\`parse_git_branch\`\[\e[m\] at \[\e[34m\]\t\[\e[m\]\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] "
 ```
