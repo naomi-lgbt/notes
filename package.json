@@ -8,8 +8,8 @@
     "start": "docsify serve ./docs -o --port 3200"
   },
   "engines": {
-    "node": "^16.8.0",
-    "npm": "^7.22.0"
+    "node": "^16.9.1",
+    "npm": "^7.24.0"
   },
   "repository": {
     "type": "git",
