@@ -3,7 +3,7 @@
 This is the default tooling I use for a TypeScript Node.js project. To use these configurations, you will need to install the requisite `npm` packages.
 
 ```bash
-npm i --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-jsdoc eslint-plugin-import prettier
+npm i --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-jsdoc eslint-plugin-import prettier typescript
 ```
 
 ## TypeScript Config
