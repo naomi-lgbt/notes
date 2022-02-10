@@ -1,4 +1,4 @@
-# [nhcarrigan's notes](/)
+# [Naomi's Notes](/)
 
 ## [Useful Information for Everyone](/#useful-information-for-everyone)
 
