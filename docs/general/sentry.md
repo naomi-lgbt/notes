@@ -47,13 +47,14 @@ import { logHandler } from "./logHandler";
  * @param {string} context A description of where the error occurred.
  * @param {Error} error The error object.
  */
-export const errorHandler = (context: string, error: Error): void => {
+export const errorHandler = (context: string, error: unknown): void => {
+  const err = error as Error;
   logHandler.log("error", `There was an error in the ${context}:`);
   logHandler.log(
     "error",
-    JSON.stringify({ errorMessage: error.message, errorStack: error.stack })
+    JSON.stringify({ errorMessage: err.message, errorStack: err.stack })
   );
-  Sentry.captureException(error);
+  Sentry.captureException(err);
 };
 
 ```
