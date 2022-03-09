@@ -26,7 +26,7 @@ jobs:
 
     steps:
       - name: Checkout Source Files
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Use Node.js v${{ matrix.node-version }}
         uses: actions/setup-node@v2
