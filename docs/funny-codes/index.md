@@ -6,4 +6,4 @@ These are some funny and nonsensical scripts I have written.
 
 I was challenged to write an absurdly long programme that prints "Hello World" to the console.
 
-[View Code](hello-world.md)
+[View Code](funny-codes/hello-world.md)
