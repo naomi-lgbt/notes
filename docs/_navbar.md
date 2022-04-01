@@ -28,6 +28,7 @@
   - [Semantic Versioning](/general/sem-ver.md)
   - [WSL Partition Cleanup](/general/compact-disk.md)
   - [`.bashrc` Customisation](/general/bashrc-file.md)
+  - [Slow WSL Network](/general/slow-wsl-network.md)
 - [GitHub Workflows](/github-workflows/index.md)
   - [Repository Setup](/github-workflows/repository-setup.md)
   - [Dependabot Config](/github-workflows/dependabot-config.md)
