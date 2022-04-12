@@ -13,7 +13,18 @@
         --theme-color: purple;
         --mono-hue: 255;
         --theme-hue: 255;
+        --cursor-normal: url("https://www.nhcarrigan.com/assets/img/cursor.cur");
+        --cursor-pointer: url("https://www.nhcarrigan.com/assets/img/pointer.cur");
       }
+
+      html {
+        cursor: var(--cursor-normal), default;
+      }
+
+      a, button {
+        cursor: var(--cursor-pointer), pointer !important;
+      }
+
       body::after {
         background: url(https://cdn.nhcarrigan.com/banner.png);
         background-size: cover;
