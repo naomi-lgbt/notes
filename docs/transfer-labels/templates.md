@@ -131,6 +131,45 @@ These are my default labels, present on ALL repositories. These are based on the
 ]
 ```
 
+## Pull Request Labels
+
+I usually include these labels with the default labels, but these ones are applied to pull requests by an [action](/github-workflows/pr-labeller.md).
+
+```json
+[
+  {
+    "name": "🔍 pull: ready for review",
+    "description": "PR is ready for maintainer review.",
+    "color": "00FF00"
+  },
+  {
+    "name": "⚠️ pull: merge conflict",
+    "description": "PR has conflicts and requires a rebase.",
+    "color": "FFFF00"
+  },
+  {
+    "name": "⏫ pull: requires update",
+    "description": "PR has requested changes that still need to be applied.",
+    "color": "FF0000"
+  },
+  {
+    "name": "⚒️ pull: work in progress",
+    "description": "PR is still being worked on and is not ready for review.",
+    "color": "cc00cc"
+  },
+    {
+    "name": "✅ pull: accepted",
+    "description": "PR has been merged. Thank you for your contribution!",
+    "color": "ffffff"
+  },
+  {
+    "name": "❌ pull: rejected",
+    "description": "PR has been closed. We would welcome future contributions!",
+    "color": "ffffff"
+  },
+];
+```
+
 ## Hacktoberfest Labels
 
 These labels are applied when I opt in a project for the [Hacktoberfest event](https://hacktoberfest.digitalocean.com/).

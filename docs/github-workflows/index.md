@@ -14,6 +14,12 @@ This is a Dependabot configuration file, which schedules the CRON job and sets t
 
 [View Workflow](/github-workflows/dependabot-config.md)
 
+## Pull Rquest Labeller
+
+This is a workflow to automatically manage the labels on PRs.
+
+[View Workflow](/github-workflows/pr-labeller.md)
+
 ## CodeQL Scanning for TypeScript and Node
 
 A CodeQL scanning for TypeScript-based Node.js applications. Pairs with the external LGTM integration.

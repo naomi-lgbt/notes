@@ -32,6 +32,7 @@
 - [GitHub Workflows](/github-workflows/index.md)
   - [Repository Setup](/github-workflows/repository-setup.md)
   - [Dependabot Config](/github-workflows/dependabot-config.md)
+  - [PR Labeller](/github-workflows/pr-labeller.md)
   - [CodeQL Scanning (TypeScript/Node)](/github-workflows/codeql-ts-node.md)
   - [Node CI (TypeScript)](/github-workflows/node-ci-ts.md)
   - [Angular GH Pages](/github-workflows/angular-deploy.md)
