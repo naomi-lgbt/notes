@@ -13,7 +13,7 @@ Here are the steps to resolve this issue:
 - ...
 - ...
 
-Please make sure you read [our guidelines for contributing](../blob/main/CONTRIBUTING.md). If you have any questions about how to resolve this issue, or about the contributing process in general, [join us in our chat room](http://chat.nhcarrigan.com).
+Please make sure you read [our guidelines for contributing](../blob/main/CONTRIBUTING.md) and check out the [contributor tool](https://contribute.naomi.lgbt/). If you have any questions about how to resolve this issue, or about the contributing process in general, [join us in our chat room](http://chat.nhcarrigan.com).
 
 If you are interested in addressing this issue, reply here and we can assign the issue to you. If someone is already assigned to the issue, please allow them time to submit a pull request before requesting to be assigned yourself. Issues are typically unassigned after a week of inactivity.
 ```
