@@ -8,6 +8,7 @@ Most of my repositories have continuous integration checks on them. When a pull 
 Thank you for your pull request. Your contributions are unfortunately not passing our integration checks. Because of this, we are unable to review your pull request.
 
 The errors can be addressed and resolved by:
+1.) Carefully reading the descriptions on the [contributor tool](https://contribute.naomi.lgbt/) and ensuring that you followed the request properly.
 
-If you have any questions about resolving this, feel free to [join our chat server](http://chat.nhcarrigan.com) and we will gladly work with you.
+2.) If you have any questions about resolving this, feel free to [join our chat server](http://chat.nhcarrigan.com) and we will gladly work with you.
 ```

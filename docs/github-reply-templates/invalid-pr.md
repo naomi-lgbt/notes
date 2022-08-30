@@ -9,5 +9,5 @@ Thank you for submitting this pull request. However, we are unable to accept you
 
 Reason:
 
-We welcome future contributions from you. If you have not done so, we encourage you to read our [contributing guidelines](../blob/main/CONTRIBUTING.md). Should you have any questions, please [join us in our chat room](http://chat.nhcarrigan.com).
+We welcome future contributions from you. If you have not done so, we encourage you to read our [contributing guidelines](../blob/main/CONTRIBUTING.md) and check out the [contributor tool](https://contribute.naomi.lgbt/). Should you have any questions, please [join us in our chat room](http://chat.nhcarrigan.com).
 ```
