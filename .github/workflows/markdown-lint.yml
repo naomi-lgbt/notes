@@ -10,11 +10,11 @@ on:
 jobs:
   MDLint:
     name: Markdown Linting
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [18.x]
 
     steps:
       - name: Checkout Source Files
