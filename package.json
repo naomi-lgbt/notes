@@ -29,7 +29,7 @@
     "docsify-cli": "^4.4.3"
   },
   "devDependencies": {
-    "markdownlint": "0.26.2",
+    "markdownlint": "0.27.0",
     "markdownlint-cli": "0.32.2"
   }
 }
