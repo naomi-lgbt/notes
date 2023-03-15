@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/nhcarrigan/code-snippets#readme",
   "dependencies": {
-    "docsify-cli": "4.4.3"
+    "docsify-cli": "4.4.4"
   },
   "devDependencies": {
     "markdownlint": "0.27.0",
