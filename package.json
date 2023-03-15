@@ -8,8 +8,8 @@
     "start": "docsify serve ./docs -o --port 3200"
   },
   "engines": {
-    "node": "^18.0.0",
-    "npm": "^9.0.0"
+    "node": "18.15.0",
+    "npm": "9.6.2"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/nhcarrigan/code-snippets#readme",
   "dependencies": {
-    "docsify-cli": "^4.4.3"
+    "docsify-cli": "4.4.4"
   },
   "devDependencies": {
     "markdownlint": "0.27.0",
