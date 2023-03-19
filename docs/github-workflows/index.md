@@ -32,6 +32,12 @@ A Continuous Integration workflow for TypeScript-based Node.js applications.
 
 [View Workflow](/github-workflows/node-ci-ts.md)
 
+## Dependency Validator
+
+Checks that all `npm` dependencies are pinned to a specific version.
+
+[View Workflow](/github-workflows/dependency-validator.md)
+
 ## Angular GH Pages
 
 This workflow will deploy an Angular project to GitHub Pages using the `angular-cli-ghpages` package.
