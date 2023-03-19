@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Check Dependencies
-        uses: naomi-lgbt/dependency-pin-checker
+        uses: naomi-lgbt/dependency-pin-checker@main
