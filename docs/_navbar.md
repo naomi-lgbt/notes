@@ -35,6 +35,7 @@
   - [PR Labeller](/github-workflows/pr-labeller.md)
   - [CodeQL Scanning (TypeScript/Node)](/github-workflows/codeql-ts-node.md)
   - [Node CI (TypeScript)](/github-workflows/node-ci-ts.md)
+  - [Dependency Validator](/github-workflows/dependency-validator.md)
   - [Angular GH Pages](/github-workflows/angular-deploy.md)
   - [External Integrations](/github-workflows/external.md)
   - [Branch Protections](/github-workflows/branch-protect.md)
