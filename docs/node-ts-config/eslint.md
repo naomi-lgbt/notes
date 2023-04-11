@@ -21,7 +21,7 @@ This is my configuration for the ESLint plugin. This goes in a `.eslintrc.json` 
     "ecmaVersion": 11,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "jsdoc", "import"],
+  "plugins": ["@typescript-eslint", "jsdoc", "import", "no-only-tests"],
   "rules": {
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "double", { "allowTemplateLiterals": true }],
@@ -73,7 +73,8 @@ This is my configuration for the ESLint plugin. This goes in a `.eslintrc.json` 
           "caseInsensitive": true
         }
       }
-    ]
+    ],
+    "no-only-tests/no-only-tests": "error"
   }
 }
 ```
