@@ -11,8 +11,8 @@ dependencies:
 
 devDependencies:
   markdownlint:
-    specifier: 0.30.0
-    version: 0.30.0
+    specifier: 0.32.1
+    version: 0.32.1
   markdownlint-cli:
     specifier: 0.38.0
     version: 0.38.0
@@ -893,17 +893,6 @@ packages:
       semver: 6.3.1
     dev: false
 
-  /markdown-it@13.0.1:
-    resolution: {integrity: sha512-lTlxriVoy2criHP0JKRhO2VDG9c2ypWCsT237eDiLqi09rmbKoUetyGHq2uOIRoRS//kfoJckS0eUzzkDR+k2Q==}
-    hasBin: true
-    dependencies:
-      argparse: 2.0.1
-      entities: 3.0.1
-      linkify-it: 4.0.1
-      mdurl: 1.0.1
-      uc.micro: 1.0.6
-    dev: true
-
   /markdown-it@13.0.2:
     resolution: {integrity: sha512-FtwnEuuK+2yVU7goGn/MJ0WBZMM9ZPgU9spqlFs7/A/pDIUNSOQZhUgOqYCficIuR2QaFnrt8LHqBWsbTAoI5w==}
     hasBin: true
@@ -934,14 +923,6 @@ packages:
   /markdownlint-micromark@0.1.7:
     resolution: {integrity: sha512-BbRPTC72fl5vlSKv37v/xIENSRDYL/7X/XoFzZ740FGEbs9vZerLrIkFRY0rv7slQKxDczToYuMmqQFN61fi4Q==}
     engines: {node: '>=16'}
-    dev: true
-
-  /markdownlint@0.30.0:
-    resolution: {integrity: sha512-nInuFvI/rEzanAOArW5490Ez4EYpB5ODqVM0mcDYCPx9DKJWCQqCgejjiCvbSeE7sjbDscVtZmwr665qpF5xGA==}
-    engines: {node: '>=16'}
-    dependencies:
-      markdown-it: 13.0.1
-      markdownlint-micromark: 0.1.7
     dev: true
 
   /markdownlint@0.32.1:
