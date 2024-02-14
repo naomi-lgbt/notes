@@ -127,6 +127,11 @@ These are my default labels, present on ALL repositories. These are based on the
     "name": "🔒 staff only",
     "description": "Restricted to project staff members",
     "color": "7f0799"
+  },
+  {
+    "name": "🧠 Mentorship",
+    "description": "Reserved for someone I am mentoring.",
+    "color": "7f0799"
   }
 ]
 ```
